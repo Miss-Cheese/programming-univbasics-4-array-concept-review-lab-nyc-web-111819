@@ -1,5 +1,5 @@
 
-scale = [2,3,4,5]
+# scale = [2,3,4,5]
 
 def find_element_index(arr_vals, value_to_find)
 
@@ -16,7 +16,7 @@ def find_element_index(arr_vals, value_to_find)
 
 end
 
-find_element_index(scale,2)
+# find_element_index(scale,2)
 
 #
 # def find_max_value(array)
