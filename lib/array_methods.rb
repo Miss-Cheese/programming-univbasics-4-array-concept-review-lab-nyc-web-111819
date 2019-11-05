@@ -1,5 +1,5 @@
 
-
+scale = [2,3,4,5]
 
 def find_element_index(arr_vals, value_to_find)
 
