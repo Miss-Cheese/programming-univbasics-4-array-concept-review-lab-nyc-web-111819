@@ -16,7 +16,7 @@ def find_element_index(arr_vals, value_to_find)
 
 end
 
-find_element_index(scale,2)
+puts find_element_index(scale,2)
 
 #
 # def find_max_value(array)
