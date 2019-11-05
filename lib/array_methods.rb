@@ -7,9 +7,9 @@ def find_element_index(arr_vals, value_to_find)
 
   while arr_vals[counter] do
       if arr_vals[counter] == value_to_find
-      new_index = counter
+        new_index = counter
       end
-  counter += 1
+      counter += 1
   end
 
   new_index
@@ -33,9 +33,6 @@ def find_max_value(array)
   max_value
 
 end
-
-
-
 
 
 def find_min_value(array)
