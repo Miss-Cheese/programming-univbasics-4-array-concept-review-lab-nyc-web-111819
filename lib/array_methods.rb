@@ -6,12 +6,14 @@ def find_element_index(arr_vals, value_to_find)
   counter = 0
 
   while arr_vals[counter] do
-      if arr_vals[counter]== value_to_find do
+      if arr_vals[counter] == value_to_find do
       new_index = counter
       end
   counter += 1
   end
+  
   new_index
+  
 end
 
 find_element_index(scale,2)
