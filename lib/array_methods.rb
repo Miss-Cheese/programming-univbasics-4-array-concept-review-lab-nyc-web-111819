@@ -1,14 +1,17 @@
-scale = [2,3,4,5]
 
 
-def find_element_index(array, value_to_find)
+
+def find_element_index(arr_vals, value_to_find)
 
   counter = 0
-  scale = [2,3,4,5]
-
-  while scale[counter] == 2 do
-    puts scale[counter]
+  
+  while arr_vals[counter] do
+      if arr_vals[counter]== value_to_find do
+      new_index = counter
+      end
+  counter += 1
   end
+  new_index 
 end
 
 find_element_index(scale,2)
