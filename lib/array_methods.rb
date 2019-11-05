@@ -11,9 +11,9 @@ def find_element_index(arr_vals, value_to_find)
       end
   counter += 1
   end
-  
+
   new_index
-  
+
 end
 
 find_element_index(scale,2)
